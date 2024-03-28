@@ -1,8 +1,8 @@
-PY = python3
+PY = python
 CS = csound
 
 all: UP
 
-UP: python/Up.py csound/orc.orc python/muslib.py
-	$(PY) python/Up.py > csound/scoUp.sco
-	$(CS) csound/orc.orc csound/scoUp.sco
+UP: $(PY)/Up.py $(CS)/orc.orc $(PY)/muslib.py
+	$(PY)3 $(PY)/Up.py > $(CS)/scoUp.sco
+	$(CS) $(CS)/orc.orc $(CS)/scoUp.sco
