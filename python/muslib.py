@@ -16,7 +16,7 @@ def nuvola(when, dur, n, vol, inst, ffl, ffh, df):
     dv = vol/np.sqrt(n)
     for i in range(n):
         f = randint(ffl, ffh)
-        when = inst.play1(when, dt, f, f+df, when+90, dv)
+        when = inst.play(when, dt, f, f+df, when+90, dv)
     return when
 
 bianco = inst("b", "pb")

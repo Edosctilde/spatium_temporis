@@ -17,18 +17,34 @@ opcode SDMX, aa,aa
 endop
 
 opcode nbp4, a, aii
-    asig, ifl, ifh xin
-    asig butterlp asig, ifh
-    asig butterlp asig, ifh
-    asig butterlp asig, ifh
-    asig butterlp asig, ifh
-    asig butterlp asig, ifh
-    asig butterhp asig, ifl
-    asig butterhp asig, ifl
-    asig butterhp asig, ifl
-    asig butterhp asig, ifl
-    aS butterhp asig, ifl
-    xout aS
+  asig, ifl, ifh xin
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterlp asig, ifh
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  asig butterhp asig, ifl
+  aS butterhp asig, ifl
+  xout aS
 endop
 
 opcode bp8, a, aki
