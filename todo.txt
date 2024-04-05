@@ -1,0 +1,9 @@
+impolpisci up
+
+vedi se è corretto l'errore su csound dalle casse
+
+c'è una parte di up e di down che sono analoghe: oltre a sovrapporre la struttura nella parte alta di down prova a variare le frequenze della parte centrale tra uno e l'altro
+oppure va bene che ritornino ma non così tanto. in ogni caso fai le sovrapposizioni su la parte alta di down e varia un po la parte mezza. prova anche a rimpolpire up anche se il discorso di sembra tornare. prova a variare le frrequenze
+
+RENDI TUTTO PI§ ciotttoooooooooiooo0ooo
+

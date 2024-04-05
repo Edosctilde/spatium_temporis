@@ -1,6 +1,13 @@
 import numpy as np
 from random import *
 
+def line(dt, x, y0, y1):
+    a = (y1-y0)/dt
+    b = y0
+    return a * x + b
+F = 1200
+ 
+
 
 class inst():
     def __init__(self, nomeFile, inst):
@@ -29,10 +36,6 @@ nero = inst("n", "pb")
 ##########################
 
 T = 0
-
-#0
-T = bianco.play(T, 6, 9990, 200, T+90, 0.05)
-#6
 
 
 
