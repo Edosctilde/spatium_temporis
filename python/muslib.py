@@ -15,7 +15,7 @@ class inst():
         self.inst = inst
 
     def play(self, when, dur, f, df, alpha, vol):
-        print("i\"%s\" %f %f \"../audioFiles/%s.wav\" %f %f %f %f" %(self.inst, when, dur, self.nomeFile, f, f +df, alpha, vol))
+        print("i1\t%3.4f %3.4f \"../audioFiles/%s.wav\" %f %f %f %f %s" %(when, dur, self.nomeFile, f, f +df, alpha, vol,self.inst))
         return when+dur
 
 def nuvola(when, dur, n, vol, inst, ffl, ffh, df):
